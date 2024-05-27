@@ -257,7 +257,7 @@ Above is our wiring diagram for the LCD. Figuring out how to wire the Arduino to
 #### Final Product ####
 <img src=" " height="300">
 <img src=" " height="300">
-<img src=" " height="300">
+<img src="https://github.com/elynch78/Pinball/blob/main/images/IMG_3012.jpeg" height="300">
 
 The LCD code ended up taking a lot more time than I had originally expected it to. Since I did not have any experience with LCDs prior to this, it felt pretty complicated when I first began to tackle this project. Finding the right libraries turned out to be especially challenging for me and took a couple classes before I had everything downloaded that I needed. I had no clue where to start but I used several different websites online (linked at the bottom of the code) to get a feel for how the code needed to be organized and what each aspect did. I used an LCD backpack so the wiring would be easier and less complex for me to deal with, saving time, energy, and organization. Using the links I set up the libraries to the LCD and addressed everything so each part would be recognized and run smoothly between the code and LCD itself. Then I added in my code from the button because I needed the points scored to show up on the display and replace the old score each time. To incorporate the points being added to the score on the display, I made score a variable and set it to 0 when you start. I was able to then use an equation to make it so that each time the button was pressed, 350 points would be added to the score and stay there until added to again. 
 
